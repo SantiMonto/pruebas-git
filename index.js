@@ -12,5 +12,19 @@ function multiplicar() {
     const resultado = num1 * num2;
   
     // Asignar el resultado al input correspondiente
-    document.getElementById("result").value = resultado;
+    document.getElementById("result-mul").value = resultado;
+  }
+
+  function sumar(){
+
+    const num1 = parseFloat(document.getElementById("num").value);
+    const num2 = parseFloat(document.getElementById("number").value);
+
+      
+    // Sumar los dos números
+    const resultado = num1 + num2;
+  
+    // Asignar el resultado al input correspondiente
+    document.getElementById("result-suma").value = resultado;
+
   }

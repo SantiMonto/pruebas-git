@@ -7,9 +7,18 @@
 .operaciones{
     display: flex;
     justify-content: space-around;
+    column-gap: 20px;
 }
 
 .multiplica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.sumar{
     display: flex;
     flex-direction: column;
     align-items: center;

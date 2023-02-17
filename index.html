@@ -11,9 +11,17 @@
     <div class="container">
         <h1>Manejo de Github</h1>
         <div class="operaciones">
-            <div class="suma">
+                <div class="sumar">
+                    <h2>Suma</h2>
+                    <label for="num1">Numero 1</label>
+                    <input class="multi" id="num" type="number" placeholder="ingresa un numero"/>
+                    <label for="num2">Numero 2</label>
+                    <input class="multi" id="number" type="number" placeholder="ingresa otro numero"/>
+                    <button onclick="sumar()">Sumar</button>
+                    <label for="result">Resultado</label>
+                    <input id="result-suma" type="number" readonly />
+                </div>
                 <!-- suma de sebas -->
-            </div>
             <div class="multiplica">
                 <h2>Multiplicación</h2>
                 <label for="num1">Numero 1</label>
@@ -22,8 +30,10 @@
                 <input class="multi" id="num2" type="number" placeholder="ingresa otro numero"/>
                 <button onclick="multiplicar()">Multiplicar</button>
                 <label for="result">Resultado</label>
-                <input id="result" type="number" readonly />
+                <input id="result-mul" type="number" readonly />
             </div>
+
+
         </div>
     </div>    
 </body>
